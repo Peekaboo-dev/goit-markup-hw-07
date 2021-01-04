@@ -1,6 +1,5 @@
 .prettierrc.json
-.setting.json
-scss/
+#scss/
 .vscode/settings.json
 # Logs
 logs
