@@ -2,14 +2,21 @@
    /*********************************/
    --primary-color: #212121;
    --primary-bc: #ffffff;
-   --logo-accent: #2196f3;
+
+   --secondary-bc-black: #2f303a;
+   --secondary-bc-gray: #f5f4fa;
+   --secondary-color-white: #ffffff;
+   --secondary-color-gray: #757575;
+
+   --color-accent: #2196f3;
    --border-header-color: #ececec;
    --header-contact-color: #757575;
    --link-active-color: #2196f3;
+   --box-transparent: rgba(47, 48, 58, 0.8);
    /*********************************/
-   --primary-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
-      "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+   --primary-font-family: "Roboto", sans-serif;
    --primary-font-family-logo: "Raleway", sans-serif;
    /*********************************/
    --fc-active: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   --fc-gradient-bg: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
 }
