@@ -66,6 +66,15 @@
       border-radius: 50%;
       border: 1px solid rgba(0, 0, 0, 0.1);
       background-color: var(--primary-bc);
+
+      transition: all var(--fc-active);
+      &:hover {
+         color: var(--link-active-color);
+      }
+      &:focus {
+         outline: none;
+         color: var(--link-active-color);
+      }
    }
 
    &__btn-close-icon {
